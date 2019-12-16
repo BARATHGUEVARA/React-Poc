@@ -12,5 +12,5 @@ app.use(express.static(staticPath, { maxAge: '2h' }));
 app.get('/',function(req,res){
     res.sendFile('/index.html');
   });
-
+// test
   app.listen(2500)
